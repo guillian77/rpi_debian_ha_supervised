@@ -45,7 +45,7 @@ $PWD/install/osagent-install.sh
 #service docker restart
 
 # Install HA Supervised
-wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
+wget https://github.com/guillian77/rpi_debian_ha_supervised/raw/main/debs/homeassistant-supervised.deb
 dpkg -i homeassistant-supervised.deb
 
 msg "HA Superviser Installed - \e[32m[DONE]\033[0m"
