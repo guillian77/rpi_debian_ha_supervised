@@ -33,7 +33,4 @@ curl -s https://packagecloud.io/install/repositories/crowdsec/crowdsec/script.de
 apt-get install -y crowdsec
 apt-get install -y crowdsec-firewall-bouncer-iptables
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/crowdsec-install.sh
 msg "Crowdsec Installed - \e[32m[DONE]\033[0m"

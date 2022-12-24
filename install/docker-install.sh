@@ -40,7 +40,4 @@ curl -L https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/d
 chmod +x /usr/local/bin/docker-compose
 msg "Install Docker Compose - \e[32m[DONE]\033[0m"
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/docker-install.sh
 msg "Docker Installed - \e[32m[DONE]\033[0m"

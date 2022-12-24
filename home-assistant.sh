@@ -32,7 +32,3 @@ $PWD/install/crowdsec-install.sh
 # $PWD/install/osagent-install.sh
 # Install HASS
 $PWD/install/hass-install.sh
-
-
-# Cleanup container
-rm -rf $PWD/install/home-assistant.sh $PWD/homeassistant-supervised.deb

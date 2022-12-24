@@ -57,7 +57,4 @@ systemctl enable glances
 ## Start Services
 service glances start
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/glances-install.sh
 msg "Glances Installed - \e[32m[DONE]\033[0m"

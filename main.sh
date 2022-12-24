@@ -127,7 +127,4 @@ msg "SSH Banner Set - \e[32m[DONE]\033[0m"
 systemctl restart ssh
 systemctl disable rpi-set-sysconf
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/main.sh
 msg "Main Setup - \e[32m[DONE]\033[0m"

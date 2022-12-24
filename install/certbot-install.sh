@@ -32,7 +32,4 @@ function msg() {
 apt install -y python3-acme python3-certbot python3-mock python3-openssl python3-pkg-resources python3-pyparsing python3-zope.interface
 apt install -y python3-certbot-nginx
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/certbot-install.sh
 msg "Certbot Installed - \e[32m[DONE]\033[0m"

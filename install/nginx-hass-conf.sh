@@ -185,8 +185,5 @@ fi
 
 service nginx restart
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/nginx-hass-conf.sh
 msg "Installed NGINX conf - \e[32m[DONE]\033[0m"
 

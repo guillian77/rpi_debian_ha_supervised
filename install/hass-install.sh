@@ -48,7 +48,4 @@ $PWD/install/osagent-install.sh
 wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
 dpkg -i homeassistant-supervised.deb
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/hass-install.sh
 msg "HA Superviser Installed - \e[32m[DONE]\033[0m"

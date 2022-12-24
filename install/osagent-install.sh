@@ -30,10 +30,7 @@ function msg() {
 
 msg "Installing OSAgent..."
 # Install OSAgent 
-wget https://github.com/home-assistant/os-agent/releases/download/1.4.1/os-agent_1.4.1_linux_aarch64.deb
-dpkg -i os-agent_1.4.1_linux_aarch64.deb 
+wget https://github.com/home-assistant/os-agent/releases/download/1.4.1/os-agent_1.4.1_linux_armv7.deb
+dpkg -i os-agent_1.4.1_linux_armv7.deb
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/osagent-install.sh
 msg "Installed OS Agent - \e[32m[DONE]\033[0m"

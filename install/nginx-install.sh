@@ -37,8 +37,4 @@ cp $PWD/nginx-files/nginx.conf /etc/nginx/
 
 service nginx restart
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/nginx-install.sh
-rm -rf $PWD/nginx-files
 msg "Installed NGINX - \e[32m[DONE]\033[0m"

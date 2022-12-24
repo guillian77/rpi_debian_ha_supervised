@@ -55,7 +55,4 @@ echo -e "$PASS\n$PASS" | smbpasswd -s -a root
 
 service smbd restart
 
-# Cleanup container
-msg "Cleanup..."
-rm -rf $PWD/install/samba-install.sh
 msg "Samba Installed - \e[32m[DONE]\033[0m"
