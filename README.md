@@ -1,5 +1,9 @@
 # This installation will help you install HA Superviser on non supported Raspberry.
-Home-Assistant Supervisor on Raspberry Pi 4 running Debian 11 complies with ADR-0014. Additional uncomplies are NGINX, Certbot, Glance, Crowdsec and Samba which is automatically installed. Remember HA Supervised will announce uncompatible if you install any docker container.
+This a fork from [tirtadji-com/rpi_debian_ha_supervised](https://github.com/tirtadji-com/rpi_debian_ha_supervised)
 
 ## Installation
-
+```shell
+git clone https://github.com/guillian77/rpi_debian_ha_supervised.git
+cd rpi_debian_ha_supervised
+sudo ./install.sh
+```
